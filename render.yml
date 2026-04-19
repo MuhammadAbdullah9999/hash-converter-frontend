@@ -18,7 +18,6 @@ services:
         name: X-Content-Type-Options
         value: nosniff
     routes:
-      # Note: 301 redirects are handled by public/_redirects file
       - type: rewrite
         source: /md5
         destination: /index.html
